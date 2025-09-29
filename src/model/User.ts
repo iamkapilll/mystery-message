@@ -1,5 +1,6 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
+//defining interface forn "Message"
 export interface Message extends Document {  //an interface mande for "Message"
     content: string; //string in small for typescript
     createdAt: Date;
@@ -16,3 +17,17 @@ const MessageSchema: Schema<Message> = new mongoose.Schema({   // so if we have 
         default: Date.now,
     }
 })
+
+
+
+//defining interface for "User"
+export interface User extends Document {
+    username: string;
+    email: string;
+    password: string;
+    verifyCode: string;
+    verifyCodeExpiry: Date;
+    isVerified: boolean;
+    isAcceptingMessages: boolean;
+    messages: Message[];  //special type of array with haveing all the "messages" with defined type earlier as "MessageSchema"
+}
