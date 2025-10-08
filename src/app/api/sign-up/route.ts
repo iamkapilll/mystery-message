@@ -1,4 +1,4 @@
-//: 12
+//:12
 //src/app/api/sign-up/route.ts
 // 📦 Importing required modules
 import dbConnect from '@/lib/dbConnect';               // Function to connect MongoDB
