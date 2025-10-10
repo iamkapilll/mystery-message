@@ -1,4 +1,4 @@
-//13.1 kinda like simultaniously working with options.ts
+//13.1 kinda like simultaniously working with options.ts(//13)
 //src/types/next-auth.d.ts
 import 'next-auth';
 
