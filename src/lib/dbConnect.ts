@@ -40,6 +40,7 @@ async function dbConnect(): Promise<void> {
 }
 
 // Export the function to use it in other files
+
 export default dbConnect;
 
 
