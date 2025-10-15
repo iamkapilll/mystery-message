@@ -63,6 +63,7 @@ export default dbConnect;
 // For Next.js, place this in /lib/mongodb.ts or /lib/dbConnect.ts, then import it in your API routes.
 
 
+
 // Example usage:
 
 // import dbConnect from "@/lib/dbConnect";
