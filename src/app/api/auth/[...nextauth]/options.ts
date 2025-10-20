@@ -66,7 +66,6 @@ export const authOptions: NextAuthOptions = {
     },
   },
   
-  
   session: {
     strategy: 'jwt',
   },
