@@ -72,6 +72,7 @@ const UserSchema: Schema<User> = new mongoose.Schema({
     messages: [MessageSchema], //so the type for the 'messages' is array of kinda like custom data so this is "MessageSchema" from line 3, as there is defined the types for that
 });
 
+
 const UserModel = 
     (mongoose.models.User as mongoose.Model<User>) ||  // this line for, "if the UserModel is already existing and running the server"
     mongoose.model<User>('User', UserSchema);          // this line for, "if the UserModel is firstly making and running the server"
