@@ -16,10 +16,6 @@ export interface ApiResponse {
 
 
 
-
-
-
-
 // Field-by-field explanation:
 // 1.success: boolean
 
