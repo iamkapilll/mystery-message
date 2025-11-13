@@ -10,6 +10,7 @@ export const usernameValidation = z  //only one value so we did not include the 
     
     
 
+    
 //A sign up schema for signup
 export const signUpSchema = z.object({
     username: usernameValidation, //from line 5
