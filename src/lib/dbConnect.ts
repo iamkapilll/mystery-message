@@ -7,6 +7,8 @@ type ConnectionObject = {
   isConnected?: number; // Optional because it may not be set initially
 };
 
+
+
 // This object will keep track of our MongoDB connection
 const connection: ConnectionObject = {};
 
