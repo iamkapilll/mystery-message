@@ -22,6 +22,7 @@ async function dbConnect(): Promise<void> {
     console.log("✅ Already connected to the database");
     return;
   }
+  
 
   try {
     // Try connecting using the MongoDB URI from environment variables
