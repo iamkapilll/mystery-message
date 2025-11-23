@@ -73,8 +73,6 @@ const UserSchema: Schema<User> = new mongoose.Schema({
 });
 
 
-
-
 const UserModel = 
     (mongoose.models.User as mongoose.Model<User>) ||  // this line for, "if the UserModel is already existing and running the server"
     mongoose.model<User>('User', UserSchema);          // this line for, "if the UserModel is firstly making and running the server"
