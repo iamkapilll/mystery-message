@@ -2,6 +2,7 @@
 //src/types/ApiResponse.ts
 // This defines a TypeScript interface to describe the shape of your API responses.
 
+
 export interface ApiResponse {
     success: boolean;           // Indicates if the API call was successful
     message: string;            // A human-readable message from the API
