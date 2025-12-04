@@ -6,6 +6,8 @@ import UserModel from '@/model/User';                  // User model (schema for
 import bcrypt from 'bcryptjs';                         // Library for password hashing (for security)
 import { sendVerificationEmail } from '@/helpers/sendVerificationEmail'; // Helper to send OTP email
 
+
+
 // 🚀 This is the POST request handler for "/api/sign-up"
 export async function POST(request: Request) {
   // ✅ Step 1: Connect to the MongoDB database
